@@ -1,0 +1,152 @@
+[
+{
+    "number": 1,
+    "position":	"Goalkeeper",
+    "name":	"Lalo Fernández (HGP)",
+    "country": "Mexico"
+},
+{
+    "number": 2,
+    "position":	"Defender",
+    "name":	"Tony Beltran",
+    "country": "United States"
+},
+{
+    "number": 4,
+    "position":	"Defender",
+    "name":	"David Horst",
+    "country": "United States"
+},
+{
+    "number": 5,
+    "position":	"Midfielder",
+    "name":	"Kyle Beckerman (C)",
+    "country": "United States"
+},
+{
+    "number": 8,
+    "position":	"Midfielder",
+    "name":	"Stephen 'Sunny' Sunday",
+    "country": "Nigeria"
+},
+{
+    "number": 10,
+    "position":	"Forward",
+    "name":	"Joao Plata",
+    "country": "Ecuador"
+},
+{
+    "number": 11,
+    "position":	"Midfielder",
+    "name":	"Albert Rusnák (DP)",
+    "country": "Slovakia"
+},
+{
+    "number": 12,
+    "position":	"Midfielder",
+    "name":	"Omar Holness (GA)",
+    "country": "Jamaica"
+},
+{
+    "number": 13,
+    "position":	"Forward",
+    "name":	"Chad Barrett",
+    "country": "United States"
+},
+{
+    "number": 14,
+    "position":	"Defender",
+    "name":	"Yura Movsisyan (DP)",
+    "country": "Armenia"
+},
+{
+    "number": 15,
+    "position":	"Defender",
+    "name":	"Justen Glad (HGP)",
+    "country": "United States"
+},
+{
+    "number": 16,
+    "position":	"Defender",
+    "name":	"Chris Wingert",
+    "country": "United States"
+},
+{
+    "number": 17,
+    "position":	"Defender",
+    "name":	"Demar Phillips",
+    "country": "Jamaica"
+},
+{
+    "number": 18,
+    "position":	"Goalkeeper",
+    "name":	"Nick Rimando",
+    "country": "United States"
+},
+{
+    "number": 19,
+    "position":	"Midfielder",
+    "name":	"Luke Mulholland",
+    "country": "England"
+},
+{
+    "number": 20,
+    "position":	"Midfielder",
+    "name":	"Luis Silva",
+    "country": "United States"
+},
+{
+    "number": 21,
+    "position":	"Defender",
+    "name":	"Aaron Maund",
+    "country": "United States"
+},
+{
+    "number": 22,
+    "position":	"Forward",
+    "name":	"Ricardo Velazco (HGP)",
+    "country": "United States"
+},
+{
+    "number": 23,
+    "position":	"Midfielder",
+    "name":	"Sebastian Saucedo (HGP)",
+    "country": "United States"
+},
+{
+    "number": 24,
+    "position":	"Goalkeeper",
+    "name":	"Matt Van Oekel",
+    "country": "United States"
+},
+{
+    "number": 25,
+    "position":	"Defender",
+    "name":	"Danny Acosta (HGP)",
+    "country": "United States"
+},
+{
+    "number": 27,
+    "position":	"Forward",
+    "name":	"Brooks Lennon (Liverpool)",
+    "country": "United States"
+},
+{
+    "number": 28,
+    "position":	"Defender",
+    "name":	"Chris Schuler",
+    "country": "United States"
+},
+{
+    "number": 29,
+    "position":	"Midfielder",
+    "name":	"José Hernández (HGP)",
+    "country": "Mexico"
+},
+{
+    "number": 70,
+    "position":	"Midfielder",
+    "name":	"Jordan Allen (HGP)",
+    "country": "United States"
+}
+]

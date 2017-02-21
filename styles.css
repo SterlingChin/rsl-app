@@ -1,0 +1,133 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./imgs/riot.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .8);
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.header-logo {
+    height: 40px;
+    margin: 5px;
+}
+
+.header-name {
+    width:222px;
+    font-size: 1.5em;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.header-li {
+    width: 75px;
+    height: 40px;
+    font-family: 'Playfair Display', serif;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.template-main {
+    margin: 25px auto;
+    width: 90vw;
+    height: calc(90vh - 50px);
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    border-radius: 5px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+.template-left {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: grey;*/
+}
+
+.template-right {
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: green;*/
+}
+.template-center-header {
+    width: 90vw;
+    height: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.template-center {
+    width: calc(90vw - 20px);
+    height: calc(100% - 20px);
+    display: flex;
+    padding: 0 10px 5px 10px;
+    overflow: scroll;
+}
+
+.template-right-players {
+    color: white;
+    display: flex;
+}
+
+.template-right-players-name {
+    width: 30vw;
+    margin: 5px
+}
+
+.template-right-players-position {
+    width: 25vw;
+    margin :5px;
+}
+.template-right-players-number {
+    width: 10vw;
+    margin: 5px;
+}
+.template-right-players-country {
+    width: 25vw;
+    margin: 5px;
+}
+
+.seasons {
+    overflow: scroll;
+    color: white;
+}

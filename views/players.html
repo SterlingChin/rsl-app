@@ -1,0 +1,20 @@
+<div class='template-main column'>
+    <div class=''>
+        <ul class='template-center-header'>
+            <li class='template-right-players-number center'>Number</li>
+            <li class='template-right-players-name center'>Player Name</li>
+            <li class='template-right-players-position center'>Position</li>
+            <li class='template-right-players-country center'>Country</li>
+        </ul>
+    </div>
+    <div class='template-center column'>
+        <div ng-repeat='currentPlayer in currentPlayers'>
+        <ul class='template-right-players row'>
+            <li class='template-right-players-number center'>{{currentPlayer.number}}</li>
+            <li class='template-right-players-name'>{{currentPlayer.name}}</li>
+            <li class='template-right-players-position'>{{currentPlayer.position}}</li>
+            <li class='template-right-players-country'>{{currentPlayer.country}}</li>
+        </ul>
+        </div>
+    </div>
+</div>
