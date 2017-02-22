@@ -16,7 +16,7 @@ angular.module('app').service('mainSvc', function($http){
             url: 'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Real+Salt+Lake&export',
             // url: 'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Real+Salt+Lake&export&exportnowrap&section19',
         }).then(function(response){
-            console.log(response.data)
+            // console.log(response.data)
             return response
         })
     }

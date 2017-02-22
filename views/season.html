@@ -1,12 +1,30 @@
 <div class='template-main'>
     <div class='template-left'>
+        <select ng-model='Seasons' value='All Seasons'>
+            <option ng-model='2005'>2005</option>
+            <option ng-model='2006'>2006</option>
+            <option ng-model='2007'>2007</option>
+            <option ng-model='2008'>2008</option>
+            <option ng-model='2009'>2009</option>
+            <option ng-model='2010'>2010</option>
+            <option ng-model='2011'>2011</option>
+            <option ng-model='2012'>2012</option>
+            <option ng-model='2013'>2013</option>
+            <option ng-model='2014'>2014</option>
+            <option ng-model='2015'>2015</option>
+            <option ng-model='2016'>2016</option>
+            <option ng-model='2017'>2017</option>
+        </select>
 
     </div>
-    <div class='template-right seasons'>
-        <ul ng-repeat='game in history'>
-            <li>Season: {{game.Season}} - Date: {{game.Date}}</li>
+    <div class='template-middle seasons'>
+        <ul class='' ng-repeat='game in history | filter: Seasons' >
+            <li>Date Played: {{game.Date | date:'MM-dd'}}-{{game.Season}}</li>
             <li>{{game.home}} - {{game.visitor}}</li>
             <li>Final Score: {{game.hgoal}}-{{game.vgoal}}</li><br>
         </ul><br>
+    </div>
+    <div class='template-right2 seasons'>
+
     </div>
 </div>

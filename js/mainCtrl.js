@@ -9,9 +9,11 @@ angular.module('app').controller('mainCtrl', function ($scope, mainSvc) {
         if (mlsStats[i][key] === "Real Salt Lake") {
           history.push(mlsStats[i])
         }
+
       }
     }
       $scope.history = history
+    //   $scope.date = $scope.history.Date
       console.log($scope.history)
   })
 
